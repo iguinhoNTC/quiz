@@ -4,8 +4,8 @@ import QuestaoModel from '../model/questao'
 import { useRouter } from 'next/router'
 
 
-// URL LOCAL ---> const BASE_URL = 'http://localhost:3000/api'
-const BASE_URL = 
+const BASE_URL = 'http://localhost:3000/api'
+// const BASE_URL = 
 
 export default function Home() {
   const router = useRouter()
