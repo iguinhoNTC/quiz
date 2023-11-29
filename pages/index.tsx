@@ -4,8 +4,8 @@ import QuestaoModel from '../model/questao'
 import { useRouter } from 'next/router'
 
 
-const BASE_URL = 'http://localhost:3000/api'
-// const BASE_URL = 
+// URL LOCAL --->> const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL ='https://quiz-next-ten.vercel.app/api' // URL PROJETO EM PRODUÇÃO 
 
 export default function Home() {
   const router = useRouter()
